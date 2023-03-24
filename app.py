@@ -15,8 +15,8 @@ with open('qs.txt', 'r') as f:
     questions = [q.strip() for q in f.readlines()]
 
 # Load the Hugging Face tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased-finetuned-sst-2-english')
-model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased-finetuned-sst-2-english')
+tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased-distilled-squad')
+model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased-distilled-squad')
 
 # Initialize the Flask app
 app = Flask(__name__)
