@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 24 16:54:25 2023
+
+@author: DELL
+"""
+
+Flask
+Flask-RESTful
+transformers
+Jinja2
+torch
+json
+unittest
